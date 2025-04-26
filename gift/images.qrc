@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>shehsh_zelii.png</file>
+        <file>capsule_616x353.jpg</file>
+        <file>tactical-monsters-rumble-arena.jpg</file>
+        <file>ss_2584b9d048aeeb2d265919bcc996401c356e66e2.1920x1080.jpg</file>
+        <file>Hexagon-Transparent-Image.png</file>
+    </qresource>
+</RCC>

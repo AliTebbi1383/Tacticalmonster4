@@ -1,0 +1,10 @@
+debug/gallery.o
+debug/game_win.o
+debug/main.o
+debug/menu.o
+debug/welcome_page.o
+debug/qrc_images.o
+debug/moc_gallery.o
+debug/moc_game_win.o
+debug/moc_menu.o
+debug/moc_welcome_page.o

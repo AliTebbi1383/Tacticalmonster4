@@ -1,0 +1,10 @@
+release/gallery.o
+release/game_win.o
+release/main.o
+release/menu.o
+release/welcome_page.o
+release/qrc_images.o
+release/moc_gallery.o
+release/moc_game_win.o
+release/moc_menu.o
+release/moc_welcome_page.o
