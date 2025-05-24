@@ -2,6 +2,7 @@
 #define GAME_WIN_H
 
 #include <QWidget>
+#include "HexGrid.h"
 
 namespace Ui {
 class game_win;
@@ -17,6 +18,10 @@ public:
 
 private:
     Ui::game_win *ui;
+    HexGrid* hexGrid;
+
+protected:
+    void mousePressEvent(QMouseEvent *event) override;
 };
 
 #endif // GAME_WIN_H

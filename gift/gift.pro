@@ -11,6 +11,7 @@ CONFIG += c++17
 SOURCES += \
     gallery.cpp \
     game_win.cpp \
+    hexgrid.cpp \
     main.cpp \
     menu.cpp \
     welcome_page.cpp
@@ -18,6 +19,7 @@ SOURCES += \
 HEADERS += \
     gallery.h \
     game_win.h \
+    hexgrid.h \
     menu.h \
     welcome_page.h
 
@@ -33,4 +35,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    images.qrc
+    images.qrc \
+    txt_files/text_file_qrecource.qrc
